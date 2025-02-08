@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # Load the trained model and scaler
-model = joblib.load("C:\\Users\\Hp\\Downloads\\breast_cancer_model.pkl")
-scaler = joblib.load("C:\\Users\\Hp\\Downloads\\scaler.pkl")
+model = joblib.load("C:\\2k25\\Breast Cancer\\models\\breast_cancer_model.pkl")
+scaler = joblib.load("C:\\2k25\\Breast Cancer\\models\\scaler.pkl")
 
 def predict_cancer(input_data):
     expected_features = 30  # Updated to match numerical features
